@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-display: optional; /* or block, swap, fallback, optional */
+    src: local('Raleway'),
+         url('fonts/raleway-v19-latin/raleway-v19-latin-regular.woff2') format('woff2'), /* will be preloaded */
+         url('fonts/raleway-v19-latin/raleway-v19-latin-regular.woff') format('woff'),
+         url('fonts/raleway-v19-latin/raleway-v19-latin-regular.ttf') format('truetype'),
+         url('fonts/raleway-v19-latin/raleway-v19-latin-regular.eot') format('embedded-opentype');
+    unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
+     font-family: 'Roboto';
+     font-style: italic;
+     font-weight: 400;
+     font-display: optional; /* or block, swap, fallback, optional */
+     src: local('Roboto'),
+          url('fonts/roboto-v20-latin/roboto-v20-latin-italic.woff2') format('woff2'), 
+          url('fonts/roboto-v20-latin/roboto-v20-latin-italic.woff') format('woff'),
+          url('fonts/roboto-v20-latin/roboto-v20-latin-italic.ttf') format('truetype'),
+          url('fonts/roboto-v20-latin/roboto-v20-latin-italic.eot') format('embedded-opentype');
+     unicode-range: U+000-5FF; /* Latin glyphs */
+ }
+
+ @font-face {
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 400;
+     font-display: optional; /* or block, swap, fallback, optional */
+     src: local('Roboto'),
+          url('fonts/roboto-v20-latin/roboto-v20-latin-regular.woff2') format('woff2'), 
+          url('fonts/roboto-v20-latin/roboto-v20-latin-regular.woff') format('woff'),
+          url('fonts/roboto-v20-latin/roboto-v20-latin-regular.ttf') format('truetype'),
+          url('fonts/roboto-v20-latin/roboto-v20-latin-regular.eot') format('embedded-opentype');
+     unicode-range: U+000-5FF; /* Latin glyphs */
+ }
